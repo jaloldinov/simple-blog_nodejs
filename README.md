@@ -1,1 +1,2 @@
-# Simple blog post project
+# Simple blog post project with nodejs
+
