@@ -1,0 +1,44 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.formContainer button {
+  width: 120px;
+  margin: 10px 0 0;
+  padding: 5px 0;
+  background-color: rgb(63, 63, 231);
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.formContainer button:hover {
+  color: white;
+  background-color: rgb(0, 0, 182);
+}
+
+.formContainer button:active {
+  color: white;
+}
+.formContainer button:focus {
+  color: white;
+}
+
+input,
+.formContainer textarea {
+  outline: none;
+  border-radius: 4px;
+}
+
+#postTitle {
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 5px;
+}
+
+#postContent {
+  font-size: 1.6rem;
+  padding: 5px;
+}
